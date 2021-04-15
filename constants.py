@@ -13,3 +13,12 @@ Command line arguments:
     -r Removes a task
     -c Completes a task
  """
+
+#This enumeration provides a standards for errors
+class Error:
+    OUT_OF_BOUND = 1
+    INDEX_NOT_A_NUMBER = 2
+    MISSING_INDEX = 3
+    EMPTY_LIST = 4
+    UNSUPPORTED_ARG = 5
+    NO_TASK_PROVIDED = 6
