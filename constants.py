@@ -1,7 +1,7 @@
 
 FILE_NAME = "todo-list.txt"
 
-# Usage information about the app, with the correct formatting
+
 USAGE_INFORMATION = """
 Command Line Todo application
 =============================
@@ -14,7 +14,6 @@ Command line arguments:
  """
 
 
-# This enumeration provides a standards for errors
 class Error:
     OUT_OF_BOUND = 1
     INDEX_NOT_A_NUMBER = 2
