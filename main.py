@@ -15,6 +15,9 @@ def main():
         elif sys.argv[1] == "-a":
             functions.create_error(functions.method_name_converter(sys.argv[1]), constants.Error.NO_TASK_PROVIDED)
 
+        elif (sys.argv[1] == "-r") or (sys.argv[1] == "-c"):
+            functions.create_error(functions.method_name_converter(sys.argv[1]), constants.Error.MISSING_INDEX)
+
         else:
             functions.create_error(None, constants.Error.UNSUPPORTED_ARG)
 
